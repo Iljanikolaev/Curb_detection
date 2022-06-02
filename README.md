@@ -5,7 +5,7 @@
 Команда для установки необходимых зависимостей: 
 
 
-	pip install -r reqirements.txt
+	pip install -r requirements.txt
 
 
 Для запуска скрипта необходимо:
