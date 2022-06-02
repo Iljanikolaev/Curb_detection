@@ -196,4 +196,3 @@ if __name__ == "__main__":
     opt = parse_args()
     # Запуск алгоритма
     detect_curb_points(input_file=opt.input_data, save_path=opt.save_results)
-    
