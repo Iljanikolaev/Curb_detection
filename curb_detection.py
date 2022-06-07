@@ -48,9 +48,9 @@ def save_las_file(path, array):
     -------
     """
     outfile = laspy.create()
-    outfile.X = array[:, 0]
-    outfile.Y = array[:, 1]
-    outfile.Z = array[:, 2]
+    outfile.x = array[:, 0]
+    outfile.y = array[:, 1]
+    outfile.z = array[:, 2]
     outfile.write(path)
 
     return
